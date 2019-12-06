@@ -1,0 +1,112 @@
+ <!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Contobox</title>
+
+        <link href="./src/css/main.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="header">
+                <img class="logo" src="./src/img/logo.png" />
+                <span class="menu" onclick="menuToggle()"> ☰ </span>  
+            </div>
+            <div class="box-menu">
+              <div class="box-menu-toddler" onclick="menu('toddler')"> TODDLER's TESTERS </div>
+              <div class="box-menu-create" onclick="menu('create')"> CREATE & CONNECT </div>
+            </div>
+             
+            <div class="box-toddler">
+               <div class="box-header" > TODDLER's TESTERS </div>
+                <div class="box-slide">
+                    <div class="slide">
+                        <div class="box box-first"> 
+                            <div class="box-container">
+                                <img src="src/img/player4.png">
+                                <span> This Parenting Podcast  Host Tested the Season's  Hottest Toddler Toy</span>
+                                <br>
+                                <p class="box-container-btn" > READ NOW </p>
+                            </div>
+                        </div>
+                        <div class="box"> 
+                            <div class="box-container">
+                                <img src="src/img/player3.png">
+                                <span> These Toy Sets Are the Answer to All of Ypur Holiday Gift-Giving Worries</span>
+                                <br>
+                                <p class="box-container-btn" > BUY NOW </p>
+                            </div>
+                        </div>
+                        <div class="box"> 
+                            <div class="box-container">
+                                <img src="src/img/player.png">
+                                <span> How My Family of Five Kids Learned to Bond and Connect Through Play</span>
+                                <br>
+                                <p class="box-container-btn" > READ NOW </p>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="box-container">
+                                <img src="src/img/player2.png">
+                                <span> This Is the Best Toddler Toy to Gift This Holiday Season</span>
+                                <br>
+                                <p class="box-container-btn" > READ NOW </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="box-indicator" > 
+                    <div class="prev" onclick="prev()"> < </div>
+                    <div class="badges"> </div>
+                    <div class="next" onclick="next()"> > </div>
+                </div>
+                <div class="box-footer" > ADD TO AMAZON CART </div>
+            </div>
+
+             <div class="box-create">
+               <div class="box-header" > CREATE & CONNECT </div>
+                <div class="box-slide">
+                    <div class="slide">
+                        <div class="box box-first"> 
+                            <div class="box-container">
+                                <img src="src/img/player.png">
+                                <span> CREATE & CONNECT </span>
+                                <br>
+                                <p class="box-container-btn" > BUY NOW </p>
+                            </div>
+                        </div>
+                        <div class="box"> 
+                             <div class="box-container">
+                                <img src="src/img/player2.png">
+                                <span> CREATE & CONNECT </span>
+                                <br>
+                                <p class="box-container-btn" > BUY NOW </p>
+                            </div>
+                        </div>
+                        <div class="box"> 
+                             <div class="box-container">
+                                <img src="src/img/player4.png">
+                                <span> CREATE & CONNECT </span>
+                                <br>
+                                <p class="box-container-btn" > BUY NOW </p>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+                <div class="box-indicator" > 
+                    <div class="prev" onclick="prev()"> < </div>
+                    <div class="badges"> </div>
+                    <div class="next" onclick="next()"> > </div>
+                </div>
+                <div class="box-footer" > ADD TO AMAZON CART </div>
+            </div>
+
+            <div class="mouse-left"></div>
+            <div class="mouse-right"></div>
+        </div>
+
+        <noscript>You need to enable JavaScript to run this app.</noscript>
+        <script src="./src/js/main.js"></script>
+    </body>
+</html>
